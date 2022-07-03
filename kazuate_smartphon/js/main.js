@@ -34,7 +34,7 @@
         } else if ($num === ans) {
             $result.classList.toggle('resultActive1');
             $gameScreen.classList.toggle('resultActive3');
-            resultH1.textContent = 'congratularion! 正解です！';
+            alert('congratulation!正解！');
             finish();
         } else if ($num > ans) {
             alert('もう少し小さいよ！');
@@ -42,7 +42,7 @@
             if(ansCount === 6) {
                 $result.classList.toggle('resultActive2');
                 $gameScreen.classList.toggle('resultActive3');
-                resultH1.textContent = 'game over';
+                 resultH1.textContent = 'game over';
                 finish();
             }
         } else {
