@@ -28,7 +28,7 @@
         console.log (ans);
         console.log (typeof $num);
         if($num > 20) {
-            h1.textContent = '1~20にしろ';
+            alert('1~20にしろや');
         } else if (Number.isNaN($num)) {
             return;
         } else if ($num === ans) {
