@@ -27,7 +27,7 @@
         $correct.appendChild(h1);
         console.log (ans);
         console.log (typeof $num);
-        if($num > 20) {
+        if($num > 20 || $num < 1) {
             alert('1~20にしろや');
         } else if (Number.isNaN($num)) {
             return;
